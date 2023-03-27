@@ -1,0 +1,76 @@
+<!doctype HTML>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>WFRP 4e QuickRef</title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/ui/1.12.1/jquery-ui.js"></script>
+    <link rel="stylesheet" href="//code.jquery.com/ui/1.12.1/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+    <script src="./isotope.pkgd.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@6.6.2"></script>
+    <script src="spells.js"></script>
+    <script src="skills.js"></script>
+    <script src="religion.js"></script>
+    <script src="data.js"></script>
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="interface.css">
+    <link href='https://fonts.googleapis.com/css?family=Sofia' rel='stylesheet'>
+    <link href='https://fonts.googleapis.com/css?family=Azeret Mono' rel='stylesheet'>
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body>
+    <div class="w3-top w3-darker-grey w3-row-padding bar-pad" id="navBarDiv">
+
+    </div>
+
+    <div class="w3-row-padding w3-section info">
+        <div class="w3-col s0 m0 l2">
+            &nbsp;
+        </div>
+        <div class="w3-col s0 m0 l8">
+            <h1>Master Search</h1>
+            <br />
+            <br />
+            <div class="w3-bar w3-center" style="width: 100% !important;">
+            <input class="w3-input w3-round-large w3-bar-item" type="text" placeholder="Search here..." id="masterSearchBox" tabindex="0"
+                onkeyup="masterSearch()">
+            <button id="masterClearButton" onclick="clearMasterSearch()" class="w3-btn w3-bar-item w3-pale-red lastBtn">Clear</button></div>
+            <div id="masterSearchOptions" class="w3-container well">
+
+            </div>
+        </div>
+        <div class="w3-col s0 m0 l2">
+            &nbsp;
+        </div>
+    </div>
+</body>
+<footer style="bottom: 0px !important; position: absolute !important;">
+    <div class="w3-row w3-section">
+        <div class="w3-col s0 m1 l1">
+            <p></p>
+        </div>
+        <div class="w3-col s12 m10 l10">
+            <div class="w3-center" id="copyrightText">
+            </div>
+        </div>
+        <div class="w3-col s0 m1 l1">
+            <p></p>
+        </div>
+    </div>
+    <script>
+        $(document).ready(function () {
+            clearMasterSearch();
+        });
+    </script>
+</footer>
+<div id="modalPlaceholder">
+
+</div>
+
+</html>

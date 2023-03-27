@@ -1,0 +1,846 @@
+.info {
+    padding-top: 60px;
+}
+
+.info h1,
+h2,
+h3,
+h4,
+h5 {
+    text-align: center;
+    color: blanchedalmond;
+}
+
+h6 {
+    color: blanchedalmond;
+    font-weight: bold;
+}
+
+footer {
+    position: relative;
+    bottom: 0px;
+    font-size: small;
+    width: 100% !important;
+    z-index: -1 !important;
+    border-top: 1px solid blanchedalmond;
+    box-shadow: inset 0 8px 15px -6px black;
+}
+
+
+eh {
+    color: goldenrod !important;
+}
+
+special {
+    font-family: Sofia, sans-serif;
+    font-style: italic;
+}
+
+mono {
+    font-family: Azeret Mono, monospace !important;
+    background-color: black !important;
+    color: #ebebeb !important;
+    padding-left: 3px !important;
+    padding-right: 3px !important;
+}
+
+.navBarContainer {
+    position: relative;
+    color: blanchedalmond;
+}
+
+#navBarDiv {
+    
+    z-index: 8 !important;
+}
+
+.navBarContainer a {
+    color: blanchedalmond;
+}
+
+.navBarContainer a:hover {
+    color: burlywood !important;
+}
+
+
+.noteCard {
+    padding: 1em;
+    background-color: darkslategrey;
+}
+
+a {
+    cursor: pointer;
+    color: blanchedalmond !important;
+    text-shadow:black 0px 1px 0px !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+a:hover {
+    cursor: pointer;
+    color: goldenrod;
+    text-decoration: none !important;
+}
+
+skill {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+skill:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+talent {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+talent:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+trait {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+trait:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+divineman {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+    font-style: italic !important;
+}
+
+divineman:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+condition {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+    font-style: italic !important;
+}
+
+condition:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+weaponqual {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+weaponqual:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+armourqual {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+armourqual:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+trait {
+    /* cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond; */
+    font-style: italic !important;
+}
+
+/* weaponqual:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+} */
+
+weapon {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+weapon:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+armour {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+armour:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+career {
+    cursor: help;
+    color: blanchedalmond !important;
+    text-decoration: underline 1px dotted blanchedalmond;
+}
+
+career:hover {
+    cursor: help;
+    color: goldenrod !important;
+    text-decoration: none !important;
+}
+
+.oneemimg {
+    width: 1em !important;
+    height: 1em !important;
+}
+
+.w3-dropdown-content {
+    border-left: 1px solid blanchedalmond !important;
+    border-right: 1px solid blanchedalmond !important;
+    border-bottom: 1px solid blanchedalmond !important;
+}
+
+
+.masterSearchResult {
+    background-color: lightgrey;
+    color: black;
+    padding: 1em !important;
+    font-weight: bolder !important;
+}
+
+.masterSearchResult:first-of-type {
+    border-radius: 4px 4px 0px 0px !important;
+}
+
+.masterSearchResult:last-of-type {
+    border-radius: 0px 0px 4px 4px !important;
+}
+
+.masterSearchResult:only-of-type {
+    border-radius: 4px !important;
+}
+
+#masterSearchBox {
+    width: 100% !important;
+}
+
+#masterClearButton {
+    z-index: 2;
+    width: 5em;
+    margin-left: -5em !important;
+}
+
+.careerAttr {
+    text-align: center !important;
+    padding: none;
+}
+
+.attrImg {
+    max-width: 2em !important;
+}
+
+/* .attr1 {
+    background-color: #e0eaea !important;
+} */
+
+.attr2 {
+    background-color: #C48359 !important;
+}
+
+.attr3 {
+    background-color: silver !important;
+}
+
+.attr4 {
+    background-color: #ffd700 !important;
+}
+
+.careerClass {
+    font-style: italic;
+}
+
+/*
+.masterSearchResult:hover {
+    background-color: grey;
+    color: white;
+    font-weight: bold;
+} */
+
+/* hr {
+    border-color: blanchedalmond;
+    width: 70% !important;
+    margin-left: 15%;
+} */
+
+hr {
+    font-family: Arial, sans-serif; /* choose the font you like */
+    text-align: center; /* horizontal centering */
+    line-height: 1px; /* vertical centering */
+    height: 1px; /* gap between the lines */
+    font-size: 1em; /* choose font size you like */
+    border-width: 1px 0; /* top and bottom borders */
+    border-style: solid;
+    border-color: blanchedalmond;
+    margin: 20px 10%; /* 20px space above/below, 10px left/right */
+    overflow: visible;
+  
+    /* ensure 1px gap between borders */
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    -ms-box-sizing: content-box;
+    -o-box-sizing: content-box;
+    box-sizing: content-box;
+  }
+  
+  hr:after {
+    content: "💀"; /* Skull */
+    color: silver;
+    font-size: 2em;
+    display: inline; /* for vertical centering and background knockout */
+    position: relative;
+    /* bottom: 2px; */
+  }
+
+.blessCard .w3-card-2{
+    background-color: slategrey !important;
+}
+
+.cultBtn {
+    width: 7em !important;
+    border: 1px solid blanchedalmond !important;
+}
+
+.loreBtn {
+    width: 7em !important;
+    border: 1px solid blanchedalmond !important;
+}
+
+.loreBtnWide {
+    width: 9em !important;
+    border: 1px solid blanchedalmond !important;
+}
+
+.loreIcon {
+    display: inline-block;
+    width:2em;
+    height:2em;
+}
+
+/* .top-navbar {
+    border-radius: 5px 5px 0px 0px;
+} */
+
+.bottom-navbar {
+    border-radius: 0px 0px 5px 5px;
+}
+
+
+.firstBtn {
+    border-radius: 5px 0px 0px 5px;
+}
+
+.lastBtn {
+    border-radius: 0px 5px 5px 0px;
+}
+
+#diffTable td {
+    vertical-align: middle;
+}
+
+.grid-item {
+    float: left;
+    width: 375px;
+    height: auto;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+   
+}
+
+.w3-panel talent {
+    color: #212141 !important;
+    text-decoration: underline 1px dotted #212141 !important;
+}
+
+.w3-panel skill {
+    color: #212141 !important;
+    text-decoration: underline 1px dotted #212141 !important;
+}
+
+.w3-panel condition {
+    color: #212141 !important;
+    font-style: italic !important;
+    text-decoration: underline 1px dotted #212141 !important;
+}
+
+.w3-panel a {
+    color: #212141 !important;
+    text-shadow: none !important;
+    text-decoration: underline 1px dotted #212141 !important;
+}
+
+.tstripe tbody tr:nth-child(even){background-color:rgba(241, 241, 241,.1);}
+
+.w3-panel h4 {
+    color: black !important
+}
+
+.w3-panel h5 {
+    color: black !important
+}
+
+.grid-card {
+    background-color: rgba(47, 79, 79,.4);
+
+}
+
+.rules-container {
+    background-color: rgba(47, 79, 79,.2);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.rulesBtn {
+    width: 100% !important;
+    background-color: rgba(47, 79, 79,.2);
+}
+
+.rulesBtn:hover {
+    background-color: rgba(47, 79, 79,.4);
+}
+
+body {
+    background-color: #16161d !important;
+    color: rgb(235, 235, 235) !important;
+    height: 100%;
+    min-height: 100%;
+}
+
+.dropdown-toggle {
+    color: black !important;
+}
+
+.dropdown-dark {
+    background-color: #343a40 !important;
+    color: white !important;
+}
+
+
+
+#showAll.btn-selected {
+    background: darkgreen !important;
+    border-color: darkgreen !important;
+}
+
+
+
+.table-dark thead {
+    top: 40px;
+    position: -webkit-sticky;
+    position: sticky;
+    height: 3em !important;
+    vertical-align: middle !important;
+}
+
+thead {
+    vertical-align: middle !important;
+}
+
+.midHead {
+    top: 80px;
+    position: -webkit-sticky;
+    position: sticky;
+    background-color: #3f5f5f !important;
+    height: 3em !important;
+    vertical-align: middle !important;
+    font-weight: bolder !important;
+}
+
+
+.headingLight {
+    color: maroon !important;
+}
+
+.header-large {
+    font-size: 1.5em;
+}
+
+.headingDark {
+    color: red !important;
+}
+
+.btn-lightMode {
+    color: black !important;
+}
+
+.btn-darkMode {
+    color: white !important;
+}
+
+.btn-dark {
+    color: white !important;
+}
+
+.btn-selected {
+    background-color: darkslategrey !important;
+    /* border-color:deepskyblue !important; */
+}
+
+.TooltipLight {
+    color: goldenrod;
+    border-bottom: 1px dotted goldenrod;
+    text-decoration: none;
+}
+
+.loreDescDetail {
+    /* border-radius: 5px; */
+    background-color:rgb(47, 79, 79,.4);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.cultDescDetail {
+    /* border-radius: 5px; */
+    background-color:rgb(47, 79, 79,.4);
+    padding-left: 1em;
+    padding-right: 1em;
+    padding-bottom: 1em;
+}
+
+.cultDescDetail1 {
+    /* border-radius: 5px; */
+    opacity: 1 !important;
+    z-index: 3;
+    position: relative;
+}
+
+.cultImg {
+    padding: 1em !important;
+    opacity: 0.125;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 0;
+}
+
+.cultDesc {
+    overflow: hidden;
+    position: relative;
+}
+
+#skillNameSearch {
+    border-radius: 5px 0px 0px 5px;
+}
+
+#skillNameSearchClear {
+    border-radius: 0px 5px 5px 0px;
+}
+
+.loreDescIcon {
+    width: 5em;
+    height: 6em;
+    padding-top: 1em;
+}
+
+.attrTable {
+    width: 100% !important;
+}
+
+.attrTable th, td {
+    /* height: 2em !important; */
+    padding-top: 3px;
+    padding-bottom: 3px;
+}
+
+/* .attrTable td {
+    height: 2em !important;
+    padding-top: 3px;
+    padding-bottom: 3px;
+} */
+
+
+.speciesCard {
+    background-color: rgba(255, 255, 255, .1) !important;
+}
+
+td:first-child {
+    font-weight: bold;
+}
+
+.table-dark {
+    background: #222229;
+}
+
+.w3-table tr {
+    border: none !important;
+}
+
+.w3-table tr:nth-child(even) {
+    background-color: rgba(255, 255, 255, .05) !important;
+}
+
+.w3-table tbody tr:hover {
+    background: rgba(120,120,120,.7) !important;
+}
+
+th {
+    background: #2b4143 !important;
+    vertical-align: middle !important;
+    
+}
+
+.skillDesc table {
+    box-shadow: 2px 2px rgba(20,20,20,.4);
+}
+
+.talentDesc table {
+    box-shadow: 2px 2px rgba(20,20,20,.4);
+}
+
+
+
+
+.bar-pad {
+    padding-top: 2px;
+    padding-bottom: 2px;
+    border-bottom: 1px solid blanchedalmond;
+}
+
+
+.w3-darker-grey {
+    color: white !important;
+    background: #343a40 !important;
+}
+
+.dropdown-divider {
+    height: 0;
+    margin: .5rem 0;
+    overflow: hidden;
+    border-top: 1px solid blanchedalmond;
+}
+
+.popupCard {
+    width: 90% !important;
+    max-width: 650px !important;
+    margin:auto;
+    overflow-y: initial !important;
+    /* margin-top: 70px !important */
+}
+
+.popupCard .w3-card-2 {
+    max-height: 80vh;
+    overflow-y: auto !important;
+}
+
+.hidden {
+    width:0px !important;
+
+}
+
+.advancementCard {
+    padding-top: 5px;
+    padding-bottom: 5px;
+    width: 100% !important;
+    /* background-color: rgba(65,65,65) !important; */
+}
+.advancementCard .w3-card-2 {
+    background-color: rgba(270,270,270,.1) !important;
+}
+
+
+.popupCard .w3-card-2 {
+    background-color: #202020 !important;
+    
+    box-shadow: 0 0 2px 2px blanchedalmond;
+}
+
+.w3-card-2 {
+    border: 1px solid rgba(255, 235, 205,.4) !important;
+}
+
+.padCard {
+    padding-left: 1em;
+    padding-right: 1em;
+}
+
+#modalPlaceholder:first-child {
+    background-color: rgba(0,0,0,.75) !important;
+}
+
+.well {
+    min-height: 20px;
+    padding: 19px;
+    padding-top: 0px !important;
+    margin-bottom: 20px;
+    background-color: rgb(245, 245, 245,0.02);
+    border: 1px solid rgb(227, 227, 227,0.01);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255,235,205,.1);
+}
+
+.well-s {
+    min-height: 20px;
+    padding-top: 0px !important;
+    padding-bottom: 10px !important;
+    background-color: rgb(245, 245, 245,0.02);
+    border: 1px solid rgb(227, 227, 227,0.01);
+    border-radius: 4px;
+    box-shadow: inset 0 1px 1px rgba(255,235,205,.1);
+}
+
+
+.tooltip {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Tooltip text */
+  .tooltip .tooltiptext {
+    visibility: hidden;
+    width: 120px;
+    background-color: #111111;
+    color: #fff;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 200;
+    width: 120px;
+    bottom: 100%;
+    left: 50%;
+    margin-left: -60px; /* Use half of the width (120/2 = 60), to center the tooltip */
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 8;
+  }
+  
+  /* Show the tooltip text when you mouse over the tooltip container */
+  .tooltip:hover .tooltiptext {
+    visibility: visible;
+  }
+
+
+.w3-darkslate-l5 {color:#000 !important; background-color:#f1f6f6 !important}
+.w3-darkslate-l4 {color:#000 !important; background-color:#cfe2e2 !important}
+.w3-darkslate-l3 {color:#000 !important; background-color:#9fc6c6 !important}
+.w3-darkslate-l2 {color:#fff !important; background-color:#70a9a9 !important}
+.w3-darkslate-l1 {color:#fff !important; background-color:#4d8080 !important}
+.w3-darkslate-d1 {color:#fff !important; background-color:#2b4848 !important}
+.w3-darkslate-d2 {color:#fff !important; background-color:#264040 !important}
+.w3-darkslate-d3 {color:#fff !important; background-color:#213838 !important}
+.w3-darkslate-d4 {color:#fff !important; background-color:#1d3030 !important}
+.w3-darkslate-d5 {color:#fff !important; background-color:#182828 !important}
+
+.w3-darkslate-light {color:#000 !important; background-color:#f1f6f6 !important}
+.w3-darkslate-dark {color:#fff !important; background-color:#182828 !important}
+.w3-darkslate-action {color:#fff !important; background-color:#182828 !important}
+
+.w3-darkslate {color:#fff !important; background-color:#2f4f4f !important}
+.w3-text-darkslate {color:#2f4f4f !important}
+.w3-border-darkslate {border-color:#2f4f4f !important}
+
+.w3-hover-darkslate:hover {color:#fff !important; background-color:#2f4f4f !important}
+.w3-hover-text-darkslate:hover {color:#2f4f4f !important}
+.w3-hover-border-darkslate:hover {border-color:#2f4f4f !important}
+
+.w3-deep-red-l5 {color:#000 !important; background-color:#ffe5e5 !important}
+.w3-deep-red-l4 {color:#000 !important; background-color:#ffa7a7 !important}
+.w3-deep-red-l3 {color:#fff !important; background-color:#ff5050 !important}
+.w3-deep-red-l2 {color:#fff !important; background-color:#f70000 !important}
+.w3-deep-red-l1 {color:#fff !important; background-color:#9f0000 !important}
+.w3-deep-red-d1 {color:#fff !important; background-color:#400000 !important}
+.w3-deep-red-d2 {color:#fff !important; background-color:#390000 !important}
+.w3-deep-red-d3 {color:#fff !important; background-color:#320000 !important}
+.w3-deep-red-d4 {color:#fff !important; background-color:#2b0000 !important}
+.w3-deep-red-d5 {color:#fff !important; background-color:#240000 !important}
+
+.w3-deep-red-light {color:#000 !important; background-color:#ffe5e5 !important}
+.w3-deep-red-dark {color:#fff !important; background-color:#240000 !important}
+.w3-deep-red-action {color:#fff !important; background-color:#240000 !important}
+
+.w3-deep-red {color:#fff !important; background-color:#470000 !important}
+.w3-text-deep-red {color:#470000 !important}
+.w3-border-deep-red {border-color:#470000 !important}
+
+.w3-hover-deep-red:hover {color:#fff !important; background-color:#470000 !important}
+.w3-hover-text-deep-red:hover {color:#470000 !important}
+.w3-hover-border-deep-red:hover {border-color:#470000 !important}
+
+.w3-deep-amber-l5 {color:#000 !important; background-color:#fffae9 !important}
+.w3-deep-amber-l4 {color:#000 !important; background-color:#ffedb7 !important}
+.w3-deep-amber-l3 {color:#000 !important; background-color:#ffdb6e !important}
+.w3-deep-amber-l2 {color:#000 !important; background-color:#ffc926 !important}
+.w3-deep-amber-l1 {color:#fff !important; background-color:#dca500 !important}
+.w3-deep-amber-d1 {color:#fff !important; background-color:#856400 !important}
+.w3-deep-amber-d2 {color:#fff !important; background-color:#765900 !important}
+.w3-deep-amber-d3 {color:#fff !important; background-color:#684e00 !important}
+.w3-deep-amber-d4 {color:#fff !important; background-color:#594300 !important}
+.w3-deep-amber-d5 {color:#fff !important; background-color:#4a3700 !important}
+
+.w3-deep-amber-light {color:#000 !important; background-color:#fffae9 !important}
+.w3-deep-amber-dark {color:#fff !important; background-color:#4a3700 !important}
+.w3-deep-amber-action {color:#fff !important; background-color:#4a3700 !important}
+
+.w3-deep-amber {color:#fff !important; background-color:#967000 !important}
+.w3-text-deep-amber {color:#967000 !important}
+.w3-border-deep-amber {border-color:#967000 !important}
+
+.w3-hover-deep-amber:hover {color:#fff !important; background-color:#967000 !important}
+.w3-hover-text-deep-amber:hover {color:#967000 !important}
+.w3-hover-border-deep-amber:hover {border-color:#967000 !important}
+
+.w3-blanched-almond-l5 {color:#000 !important; background-color:#fffefc !important}
+.w3-blanched-almond-l4 {color:#000 !important; background-color:#fffbf5 !important}
+.w3-blanched-almond-l3 {color:#000 !important; background-color:#fff7eb !important}
+.w3-blanched-almond-l2 {color:#000 !important; background-color:#fff3e0 !important}
+.w3-blanched-almond-l1 {color:#000 !important; background-color:#ffefd6 !important}
+.w3-blanched-almond-d1 {color:#000 !important; background-color:#ffd89e !important}
+.w3-blanched-almond-d2 {color:#000 !important; background-color:#ffc670 !important}
+.w3-blanched-almond-d3 {color:#000 !important; background-color:#ffb442 !important}
+.w3-blanched-almond-d4 {color:#000 !important; background-color:#ffa114 !important}
+.w3-blanched-almond-d5 {color:#fff !important; background-color:#e68a00 !important}
+
+.w3-blanched-almond-light {color:#000 !important; background-color:#fffefc !important}
+.w3-blanched-almond-dark {color:#fff !important; background-color:#e68a00 !important}
+.w3-blanched-almond-action {color:#fff !important; background-color:#e68a00 !important}
+
+.w3-blanched-almond {color:#000 !important; background-color:#ffebcd !important}
+.w3-text-blanched-almond {color:#ffebcd !important}
+.w3-border-blanched-almond {border: 1px solid; border-color:#ffebcd !important}
+
+.w3-hover-blanched-almond:hover {color:#000 !important; background-color:#ffebcd !important}
+.w3-hover-text-blanched-almond:hover {color:#ffebcd !important}
+.w3-hover-border-blanched-almond:hover {border-color:#ffebcd !important}
